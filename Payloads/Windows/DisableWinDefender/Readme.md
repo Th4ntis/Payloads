@@ -1,1 +1,0 @@
-Powershell script/command to disable Windows Defender.
